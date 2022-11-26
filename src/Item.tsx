@@ -121,7 +121,6 @@ export const Item = ({
           background: 'blue',
         }}
       /> */}
-      {console.log((xTile + yTile) % 2)}
       {Math.abs(xTile + yTile) % 2 === 0 && (
         <img
           src="https://burst.shopifycdn.com/photos/fog-on-dark-waters-edge.jpg?width=1200&format=pjpg&exif=1&iptc=1"
